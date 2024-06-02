@@ -1,0 +1,623 @@
+
+*{
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+}
+
+    .zweiteiler{
+      margin-top:4%; /* 3% 5% 8%*/
+      margin-bottom:8%; /*5%*/
+      
+    }
+    .header-bild{
+      border-radius:20px;
+    }
+    .slogan>p{
+     position:absolute;
+     left:5%; /*10%*/
+     top:30%; /* 32% 33% 35%*/
+     color:white;
+     font-family: "Merriweather", serif;
+     font-weight: 700;
+     font-style: normal;
+    word-spacing:5px;
+    font-size: 24px;
+    }
+    .pos{
+      position:relative;
+      margin-top:13%; /*15%18%20%25%*/
+    }
+    .grid-item1{
+      background-color:rgba(81, 111, 59,1);
+    }
+    .grid-item2 >p{
+      position:absolute;
+      top:2.2%; /*2.3%2.5%3%5%8%10%*/
+      font-family: "Open Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-style:normal;
+      font-size:16px;
+  
+    }
+  /*  .grid-item2 p >span{
+      color:rgba(46,204,113,0.6);
+    }*/
+    .grid-item3{
+      background-color:rgba(81, 111, 59,1);
+      width:100%;
+      position:relative;
+      margin-left:3%;
+    }
+    .grid-item4{
+      background-color:rgba(81, 111, 59,1);
+    }
+  #bild3{
+      position:relative;
+      margin-top:3%; /*2%*/
+      height:130px; /*300px 100px*/
+      /*width:200px;*/
+      border-radius:80px; /* ab 300px keine Veränderung */
+       background-color: rgba(203, 238, 237, 0.5);
+      
+  }
+  #bild3>p{ /*werden Sie mitglied*/
+    position:relative;
+    top:20%; /*4%6%8% 18%*/
+    margin-left:3%;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:600;
+    word-spacing: 2.5px;
+    line-height: 1.6;
+    color:white;
+  
+  
+  }
+  #bild4{
+    position:relative;
+    margin-left:25%;
+    margin-top:6%; /*4%*/
+    width:50%;
+    border-radius:220px;
+    margin-bottom:8%; /*text Gemeinsam verschiebt sich nach unten...*/
+  }
+/*Text Gemeinsam*/
+#intention{
+  color:white;
+  position:relative;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
+ 
+}
+  #bild5{
+    position:relative;
+    margin-left:1%;
+    margin-top:6%; /*4%*/
+    width:98%;
+    height:60%; /*60% 63%%*/
+    border-radius:100px;
+    margin-bottom:8%; /*text Gemeinsam verschiebt sich nach unten...*/
+  }
+  #gleichgewicht{
+    height: 80%;
+    border-radius:15px;
+  }
+  #gleichgewicht2{
+    height:80%; /*60%  70% 80%*/
+    border-radius:30px;
+    width:80%;
+  }
+ 
+  .pos-gleichgewicht{
+    position:relative;
+    margin-top:20%;
+    margin-bottom:10%;
+  }
+  #gleichgewicht3{
+    position:relative;
+    left:-13%;
+
+  }
+
+  .entspannung{
+    position:absolute;
+    top:440%; /*200% 280%*/
+    right:3%; /*5%*/
+  }
+ /* #hoverGleichgewicht3{
+  position:absolute;
+  width:80%;
+ /* left:145%; /*100% 120% 130%*/
+ /* top:105%; /*50% 110% ist zu weit nach unten*/
+
+ /*padding:3px;
+ left:5%; /*2% 4%*/
+ /*font-family: "Quicksand", sans-serif;
+ font-optical-sizing: auto;
+font-weight:500;
+ font-style: normal;
+ line-height: 1.6;
+ }*/
+
+ /*#hoverGleichgewicht{ /*Für ein zufriedenes Leben*/
+ /* position:relative;
+  margin-top:12%; /*5%*/
+ /* margin-bottom:5%; /*2%*/
+ /* display:inline-block;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+ font-weight:500;
+  font-style: normal;
+  line-height: 1.6;
+}*/
+
+#hoverGleichgewicht2{ /*Unter Text zum Mann*/
+    text-align: justify;
+    display: inline-block;
+    position:relative;
+    margin-top:12%;
+    margin-bottom:5%;
+    width:70%;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style: normal;
+    line-height: 1.6;
+}
+#gleichgewicht3 {
+  position: relative;
+  left: -13%;
+}
+
+/* Entspannung */
+.entspannung {
+  position: absolute;
+  top: 380%;
+  right: 3%;
+}
+
+#hoverGleichgewicht3 {
+  text-align: justify;
+  display: inline-block;
+  position:relative;
+  margin-top:12%;
+  margin-bottom:5%;
+  left:6%;
+  width:70%;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
+  line-height: 1.6;
+}
+/*  #hoverGleichgewicht2{
+  background-color:blue;
+  position:relative;
+  margin-top:5%;
+  margin-bottom:10%;
+
+ }*/
+/* .gleichgewichtbild{
+  position:relative;
+  margin-bottom:70%;
+ }*/
+
+ .entspannung >img{
+  width:80%; /*90%*/
+border-radius:30px;
+position:relative;
+margin-top:30%; /*3% 5% 7%*/
+margin-left:16%; /*5% 15%*/
+}
+
+  /*.entspannung >img{
+    width:80%; /*90%*/
+/*  border-radius:30px;
+  position:relative;
+  margin-top:3%; /*3% 5% 7%*/
+ /* margin-left:16%; /*5% 15%*/
+ /*}
+ 
+ /*Akkordion*/
+ .accordion-content >ul li{
+  list-style-type:none;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
+ }
+ .accordion-content ul li span{
+  color:rgba(46,204,113,1);;
+ }
+ .accordion-style{
+  position:absolute;
+  top:500%; /*450% 545% 538%*/
+  right:2%; /*3%*/
+  width:80%;
+
+ }
+ /*SEHR WICHTIG*/
+ 
+.accordion-content {
+display:none;
+/*hier background-color hinzufügen, falls erforderlich*/
+
+
+}
+.accordion-header{
+cursor:pointer;
+border:1.5px solid rgba(46,204,113,0.6); /*shamrock*/
+font-family: "Quicksand", sans-serif;
+font-optical-sizing: auto;
+font-weight:500;
+font-style: normal;
+
+}
+
+/*Mitgliedschaft*/
+.mitgliedschaft-pos{
+ position:absolute;
+  top:560%; /*500%* 520% 580 578%%*/
+/*background-color:green;*/
+/* left:12%;*/
+left:-1%;
+width:100%;
+display:none;
+
+}
+.mitgliedschaft{
+  width:100%;
+  background-color:rgba(81, 111, 59,1);
+  border-radius:20px;
+  height:220px;
+
+  
+}
+
+.mitgliedschaft>h3{
+position:absolute;
+left:19%; /*15% 18%*/
+top:6%;
+color:white;
+font-family: "Merriweather", serif;
+font-weight: 700;
+font-style: normal;
+word-spacing:5px;
+font-size: 24px;
+
+}
+.mitgliedschaft-text{
+
+  position:absolute;
+  left:13%; /*19% 15%*/
+  top:15%; /*10% 12%*/
+ font-family: "Quicksand", sans-serif;
+ font-optical-sizing: auto;
+ font-weight:500;
+ font-style: normal;
+ line-height: 1.6;
+ color:white;
+}
+
+.mitglied-werden-btn{
+  position:absolute;
+  left:7%; /*10% 12%*/
+  width:86%; /*60% 80%*/
+  top:76%; /*25% 60% 62%*/
+  bottom:10%;
+  background-color: #A1FFFF !important;
+  border:1px solid white !important;
+  font-family: "Quicksand", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight:500 !important;
+  font-style: normal;
+ 
+ 
+}
+
+/*FOOTER*/
+footer{
+  position:absolute;
+  top:586.5%; /*600%*/
+      width:100%;
+      padding:20px;
+      background-color: rgba(0,177,106,0.7);
+      
+   
+  }
+   
+ footer .col-25{
+  width:100%; 
+  border-bottom: 1px solid white;
+  
+
+}
+footer .col-25 ul{
+list-style-type:none;
+
+}
+
+footer .col-25 a{ 
+  text-decoration: none;
+  color:black;
+
+
+}
+#last {/*letzte Liste im Footer kein border-bottom*/
+  border-bottom: none;
+}
+
+#last .icons  {
+display: inline-block;
+padding:5px;
+font-size: 28px;
+border-radius: none;
+text-decoration: none;
+
+}
+.white{
+  color:white !important;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+.slogan>p{
+    left:60%; /*50% 70% 80%*/
+    top:50%; 
+    color:black;
+    display:none;
+    
+}
+
+/*GRID_POSITIONIERUNG*/
+.pos{
+ position:relative;   
+left:20%; /*25%30%*/
+
+}
+#bild3{
+      position:relative;
+      height:210px; /*200px*/
+      /*width:200px;*/
+      border-radius:200px; /* ab 300px keine Veränderung */
+ 
+      margin-top:1.5%;
+  }
+  #bild3 >p{
+   
+    top:30%; /*10%15%25%*/
+   /* width:65%; /*50% 60%*/
+   /* align-items: center;*/
+    justify-content: center;
+    text-align:center;
+    margin-left:1%;
+  }
+/*Apfel-Bild*/
+#bild4{
+    
+    margin-left:0%; /*5%*/
+    margin-bottom:38%; /* 40%5%text geht nach unten*/
+    margin-top:6%; /*2% 4%*/
+    
+    width:100%;
+      border-radius:220px;
+  }
+  .grid{
+     
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    /*  grid-template-rows: repeat(2);*/
+  }
+  .grid-item1{ /*<!--Bild-->*/
+      grid-column-start:1;
+      grid-column-end:2;
+      grid-row-start:1;
+      grid-row-end:2;
+    
+  }
+  .grid-item2{ /*LOgo +Text-->*/
+      grid-column-start:1;
+      grid-column-end:2;
+      grid-row-start:1;
+      grid-row-end:2;
+     /* background-color:yellow;*/
+  }
+  .grid-item3{ /*headertext+farbe*/
+      grid-column-start:1;
+      grid-column-end:2;
+      grid-row-start:2;
+      grid-row-end:4;
+     
+      margin-left:0%;
+      
+
+
+  }
+  .grid-item4{ /*Bild und Text*/
+      grid-column-start:2;
+      grid-row-start:1;
+      grid-row-end:4;
+  
+
+  }
+ /* #hoverGleichgewicht{ /*Für ein zufriedenes Leben*/
+    
+  /* margin-top:10%; /*5%*/
+  /*  margin-bottom:5%; /*2%*/
+  
+ /* }*/
+  #gleichgewicht{ /*BIld Stein*/
+    position:relative;
+    margin-top:30%;
+  }
+
+  #gleichgewicht2{ /*BILD MANN*/
+    position:relative;
+    margin-top:30%; /* 20%30% 18%*/
+   /* border-radius: 10px;*/
+   
+  }
+ #hoverGleichgewicht2{ /*Unter TExt zum Mann*/
+  
+      margin-top:10%;
+      margin-bottom:5%;
+ }
+
+ #gleichgewicht3{
+  position:relative;
+  
+  margin-top:20%;
+  margin-bottom:5%;
+
+ }
+/* #hoverGleichgewicht3{
+  position:absolute;
+  width:100%;
+  left:153%; /*100% 120% 130% 150% 151%152% geht ins Bild*/
+ /* top:80%; /*200% geht zu weit nach unten*/
+
+ /*padding:3px;
+ }*/
+ .entspannung{
+  position:absolute;
+  top:333%; /* 330% 332% 335% 350% ist zu weit*/
+  left:15%;/*5%*/
+ }
+ .entspannung >img{
+  width:auto;
+
+
+ /* margin-top:3%;*/
+ }
+
+ /* #hoverGleichgewicht{ /*Für ein zufriedenes Leben*/
+    
+  /*  margin-top:10%; /*5%*/
+  /*  margin-bottom:5%; /*2%*/
+  
+ /* }*/
+  #gleichgewicht{ /*BIld Stein*/
+    position:relative;
+    margin-top:30%;
+  }
+
+  #gleichgewicht2{ /*BILD MANN*/
+    position:relative;
+    margin-top:30%; /* 20%30% 18%*/
+   /* border-radius: 10px;*/
+   
+  }
+ #hoverGleichgewicht2{ /*Unter TExt zum Mann*/
+  
+      margin-top:10%;
+      margin-bottom:5%;
+ }
+
+ #gleichgewicht3 {
+  position: relative;
+  margin-top: 20%;
+  margin-bottom: 5%;
+}
+
+/*.entspannung {
+  position: relative;
+  top: 3%;
+  left: 0;
+}*/
+
+.entspannung > img {
+  width: auto;
+  margin-top: 3%;
+  margin-left: 0;
+}
+
+#hoverGleichgewicht3 {
+ position: absolute;
+  width: 350px; /*300px*/
+  left:153%; /*100% 120% 130% 150% 151%152% geht ins Bild*/
+  top: 50%;
+  padding: 3px;
+}
+ .accordion-style{
+  position:absolute;
+  top:442%; /*450%*/
+  left:10%;/*14%16%18%*/
+  
+ }
+ .accordion{
+ 
+  width:45%; /* 50%60%*/
+  padding:15px; /*20px*/
+
+
+ }
+ /*Mitgliedschaft*/
+.mitgliedschaft-pos{
+  position:absolute;
+  top:473.7%; /*450% 480% 475%473%*/
+ /* background-color:green;*/
+ border-radius: 20px;
+
+
+width:100%;
+/*neu hinzugefügt*/
+display:none;
+
+}
+.mitgliedschaft{
+  width:101.5%;
+  
+  height:220px;
+
+  
+}
+
+.mitgliedschaft>h3{
+ 
+  left:30%;
+ 
+}
+.mitgliedschaft-text{
+
+ 
+  left:30%;
+ 
+  top:15%; /*10% 12%*/
+}
+.mitglied-werden-btn{
+ 
+  left:60%; /*40%*/
+  width:20%;
+  top:65%; /*25% 60% 62%*/
+ 
+ 
+}
+
+
+footer{
+  position:absolute;
+  top:500%;
+  width:100%;
+  display:flex; /*flexbox aktiviert* Abstand zwischen den Listen.*/
+  flex-wrap: wrap;
+   text-align: center; 
+             
+               }
+footer .col-25{
+width:25%;  
+flex:25%;
+flex-direction: column;
+border-bottom: none;
+  }
+
+}
+
+
+
+

@@ -1,0 +1,164 @@
+
+
+.styling{
+    background-color:red;
+    text-align:center;
+    height:10%;
+    width:100%; /*40%*/
+    padding-top:5%;   
+    margin:auto;
+}
+.styling>span{     
+ padding:2px;
+ margin:5px;
+}
+/* Gestaltung der Schrift inkl. des Schattens*/
+.styling span {
+    padding-top:20%;
+    font-size: 5vw;
+    font-weight: 400;
+    text-shadow: -0.04em 0.02em 0.10em rgba(0, 0, 0, 0.8);
+}
+.pos{
+    position:relative;
+    margin-top:12%; /*10%*/
+}
+#ueberschrift{
+    position:relative;
+    margin-top:10%;
+    border-right:2px solid rgba(194,249,112,0.8);
+}
+.button{
+     
+position:relative;
+background-color:transparent !important;
+width:80%;
+padding:3px;
+left:2%;
+border: 2px solid rgba(81, 111, 59,1)  !important;
+font-family: "Quicksand", sans-serif !important;
+font-optical-sizing: auto;
+font-weight:500 !important;
+font-style: normal;
+
+}
+
+
+
+/*FOOTER*/
+footer{
+position:absolute;
+/* top:607%; /*600%*/
+width:100%;
+padding:20px;
+background-color: rgba(0,177,106,0.7);
+
+
+}
+
+footer .col-25{
+width:100%; 
+border-bottom: 1px solid white;
+
+
+}
+footer .col-25 ul{
+list-style-type:none;
+
+}
+
+footer .col-25 a{ 
+text-decoration: none;
+color:black;
+
+
+}
+#last {/*letzte Liste im Footer kein border-bottom*/
+border-bottom: none;
+}
+
+#last .icons  {
+display: inline-block;
+padding:5px;
+/*margin:3px 2px; */
+
+font-size: 28px;
+
+
+border-radius: none;
+text-decoration: none;
+
+}
+.white{
+color:white !important;
+}
+
+@media screen and (min-width: 768px) {
+.styling{
+    background-color:red;
+    text-align:center;
+    padding-top:0.03%; 
+    width:30%; /*40%*/
+    border-radius:60%;
+    margin:auto;
+}
+.styling>span{
+    font-weight: 300;       
+padding:2px;
+margin:5px;
+}
+.balken{
+    position:relative;
+    /*margin-left:60%;
+    margin-top:3%; /*2%*/
+   /* margin-bottom:3%;*/
+    width:42.7%; /*70%*/
+    height:5px; /*80px100px*/
+    padding:3%;
+    background-color:rgba(194,249,112,0.6); /*inchworm*/ 
+   /* border:1px solid white;*/
+   border:none;
+   margin-top:18%; /* 9%8%10%*/
+   left:-6%;
+}
+.balken>h2{
+position:relative;
+margin:-2%; /*1%* 5%*/
+/*left:8%;*/
+
+
+}
+#ueberschrift{
+  position:relative;
+  margin-top:13%; /*10%*/
+   
+}
+ h3{
+    color:rgba(46,204,113,1)  !important;
+  
+}
+.button{
+    position:relative;
+    left:70%;
+  
+    width:30%;
+ 
+}
+
+
+footer{
+position:absolute;
+/*top:500%;*/
+width:100%;
+display:flex; /*flexbox aktiviert* Abstand zwischen den Listen.*/
+flex-wrap: wrap;
+text-align: center; /*einzelnen Listen sind zentriert zum Abstand*/
+      }
+footer .col-25{
+width:25%;  
+flex:25%; 
+flex-direction: column;
+border-bottom: none;
+}
+
+}

@@ -1,0 +1,214 @@
+
+
+.yoga-hitting{
+    width:100%;
+    height:500px;
+    contain:cover;
+}
+h2{
+    position:absolute;
+    top:35%; /*30%*/
+    left:28%; /*20% 25%*/
+    animation:slogan 5s  forwards;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style:normal;
+    font-size:16px;
+    
+}
+@keyframes slogan{
+0% {top:35%; /*top im Minus-Bereich ist zu schnell*/
+    left:-20%;
+}
+
+100%
+{  top:35%;
+    left:40%;
+ 
+    }
+
+}
+h3{
+    position:absolute;
+    left:30%;
+  top:82%; /*80%*/
+    padding:5px 3px;
+    border-bottom:1px solid rgba(194,249,112,0.7); /*inchworm*/
+  
+
+}
+.txt{
+    width:80%;
+    position:absolute;
+    top:90%; /*85% 88%*/
+    left:8%; /*5%*/
+    align-items:center;
+    font-family: "Quicksand", sans-serif;
+   font-optical-sizing: auto;
+   font-weight:500;
+   font-style: normal;
+   line-height:1.6;
+}
+form >p{
+    position:relative;
+   
+    margin-bottom:3%; /*5%*/
+    font-size:22px;
+    font-weight:500; /*700*/
+    font-family: "Open Sans", sans-serif !important;
+   font-optical-sizing: auto;
+   font-style:normal;
+
+}
+form{
+    position:absolute;
+    left:8%; /*10% 15%*/
+    top:135%; /*140*/
+    width:100%; 
+    margin-top:6%; /* 8%10%5%%15%20% 25%*/
+  
+}
+.button{
+   
+    position:relative;
+    background-color:transparent !important;
+    width:80%;
+    padding:3px;
+    left:2%;
+    border: 2px solid rgba(81, 111, 59,1)  !important;
+    font-family: "Quicksand", sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight:500 !important;
+    font-style: normal;
+}
+
+
+/*FOOTER*/
+footer{
+position:absolute;
+top:168%; 
+width:100%;
+padding:20px;
+background-color: rgba(0,177,106,0.7);
+
+
+}
+
+footer .col-25{
+width:100%; 
+border-bottom: 1px solid white;
+
+
+}
+footer .col-25 ul{
+list-style-type:none;
+
+}
+
+footer .col-25 a{ 
+text-decoration: none;
+color:black;
+
+
+}
+#last {
+border-bottom: none;
+}
+
+#last .icons  {
+display: inline-block;
+padding:5px;
+/*margin:3px 2px; */
+
+font-size: 28px;
+
+
+border-radius: none;
+text-decoration: none;
+
+}
+.white{
+color:white !important;
+}
+
+@media screen and (min-width: 768px) {
+        h2{
+            left:40%;
+        }
+        .balken{
+    position:relative;
+    /*margin-left:60%;
+    margin-top:3%; /*2%*/
+   /* margin-bottom:3%;*/
+    width:42.7%; /*70%*/
+    height:5px; /*80px100px*/
+    padding:3%;
+    background-color:rgba(194,249,112,0.6); /*inchworm*/ 
+   /* border:1px solid white;*/
+   border:none;
+}
+h3{
+    left:50%;
+    margin:10%;
+    top:86.5%; /*80% 85%*/
+    border-bottom:none;
+}
+.txt{
+    width:50%;
+   top:95%;
+   left:45%; /*50%*/
+ 
+  
+}
+.balken2{
+    position:relative;
+    margin-top:23%; /* 80% bloß nicht 50% 25%*/
+    margin-left:60%; /*30%*/
+
+}
+.balken3{
+    position:relative;
+    margin-top:4%; /*1.5% 1.8%2%*/
+}
+.balken3>p{
+position:relative;
+margin-top:-1.5%; /*1%* 5%*/
+left:8%;
+
+}
+form >p{
+   
+    margin-bottom:3%; /*5%*/
+   
+
+}
+form{
+   position:relative;
+    left:13.5%; /*10% 15%*/
+    width:70%; /*80%*/
+    margin-top:6%; /* 8%10%5%%15%20% 25%*/
+
+}
+.button{
+    position:relative;
+    left:70%;
+   
+    width:30%;
+ 
+}
+
+footer{
+position:relative;
+width:100%;
+display:flex; /*flexbox aktiviert* Abstand zwischen den Listen.*/
+flex-wrap: wrap;
+text-align: center; /*einzelnen Listen sind zentriert zum Abstand*/
+     
+       }
+footer .col-25{
+width:25%;  
+flex:25%; 
+flex-direction: column;
+border-bottom: none;
+}
+}
